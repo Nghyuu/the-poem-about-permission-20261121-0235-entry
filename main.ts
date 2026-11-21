@@ -7,7 +7,8 @@
 //
 // The program writes the poem to /output/entry.txt (or to the
 // directory $MAKEFUN_OUTPUT_DIR names when set). Node 22, standard
-// library only; two runs write the same bytes.
+// library only; two runs write the same bytes. The written text is
+// 176 Unicode code points, inside the gate's 1–280 range.
 //
 //   mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
 
